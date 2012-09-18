@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About HTML semantics and front-end architecture by Nicolas Gallagher"
-date: 2012-03-20 00:37:52
+date: 2012-03-20
 ---
 
 **Credit**  
