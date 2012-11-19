@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ember.js Documentation"
+title: "Ember.js Documentation by emberjs.com"
 date: 2012-07-08
 ---
 

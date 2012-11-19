@@ -1,11 +1,32 @@
-## コラボレータ募集中!
+## About:
 
-[en.ja](http://enja.studiomohawk.com/)では海外記事の翻訳を手伝ってくれる方を募集しています。  
-一応フロントエンドデベロッパのための〜と銘打ってはいますが、サーバサイドな記事でも、iOSな記事でも、Androidな記事でもかまいません。  
+the-base is a initial setup for [Jekyll](https://github.com/mojombo/jekyll). 
+I just don't have a time to create Jekyll blogs from scratch every time.
 
-記事の寄稿は簡単です。  
-このレポジトリをForkして、\_site内に記事を書いていただいてからPull RequestをいただければOK。  
-ブログはJekyllというここgithubでも利用されている静的ブログ生成ツールを使っています。  
-日本語による詳しい解説は[こちら](http://css.studiomohawk.com/jekyll/2011/06/11/jekyll/)からどうぞ。私の書いた記事ですが。
+I will try to make this as minimum as possible.
 
-また[issues](https://github.com/studiomohawk/en.ja-feedback/issues)を利用して記事のリクエストを受け付けています。
+## Dependencies:
+
+### Jekyll
+
+Obviously. [Jekyll](https://github.com/mojombo/jekyll)  
+And whatever Jekyll is depended on.  
+I like to use kramdown since I can apply classes to elements
+
+You have to modify \_config.yml. If you have no idea what you should do, you should check [this doc](https://github.com/mojombo/jekyll/wiki/Configuration).
+
+### usage
+
+Documentation is coming.
+
+Until then you can get almost anything by `npm install` on the root.  
+If you get error doing it, you need to install [node.js](http://nodejs.org/)
+
+## Question?
+
+You can ask questions [here](https://github.com/studiomohawk/the-base/issues/new).  
+You could also ask anything on [Twitter@cssradar](http://twitter.com/cssradar)
+
+## Licence:
+
+See LICENSE. It's MIT so you can do anything you want.

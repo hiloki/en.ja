@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SOLID CSS"
+title: "SOLID CSS by Miller H. Borges Medeiros"
 date: 2012-09-17 13:21:51
 ---
 
@@ -10,7 +10,7 @@ Original article is written at blog.millermedeiros.com.
 [SOLID CSS](http://blog.millermedeiros.com/solid-css/)
 
 本記事はMiller H. Borges Medeiros([@millermedeiros](http://twitter.com/millermedeiros))氏の了承を得て翻訳された記事です。
-原文はblog.millermedeiros.comにて書かれた[SOLID CSS](http://blog.millermedeiros.com/solid-css/)]です。
+原文はblog.millermedeiros.comにて書かれた[SOLID CSS](http://blog.millermedeiros.com/solid-css/)です。
 
 ## SOLID CSS
 
