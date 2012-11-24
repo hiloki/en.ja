@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Principles of writing consistent, idiomatic CSS by Nicolas Gallagher"
+title: "Principles of writing consistent, idiomatic CSS"
+byline: "Nicolas Gallagher"
 date: 2012-06-13
 ---
 

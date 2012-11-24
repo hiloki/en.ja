@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "About HTML semantics and front-end architecture by Nicolas Gallagher"
+title: "About HTML semantics and front-end architecture"
+byline: "Nicolas Gallagher"
 date: 2012-03-20
 ---
 

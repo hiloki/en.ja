@@ -2,45 +2,50 @@ a,
 a:link,
 a:visited {
 	text-decoration: none;
-	color: $text-dark;
+	color: foreground;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
 }
 a:hover {
-	color: darken($text-dark, 20%);
+	color: darken(foreground, 30%);
 }
 a:active {
 	outline: none;
 }
-
-.post-title a:hover {
-	border-bottom: 1px solid $text-red;
-	color: $text-red;
+a:hover .logo-en:after {
+	color: purple;
 }
-
-.page-post .content {
+.post-title {
+	a:hover {
+		border-bottom: 1px solid red;
+		color: red;
+	}
+}
+.content {
 	a,
 	a:link,
 	a:visited {
-		border-bottom: 1px dotted $text-dark;
+		border-bottom: 1px dotted foreground;
 		text-decoration: none;
-		color: $text-dark;
+		color: foreground;
 	}
 	a:hover {
-		border-bottom: 1px solid $text-red;
-		color: $text-red;
+		border-bottom: 1px solid red;
+		color: red;
 	}
 }
-
 .the-footer {
 	a,
 	a:link,
 	a:visited {
-		border-bottom: 1px dotted $text-light;
+		border-bottom: 1px dotted background;
 		text-decoration: none;
-		color: $text-light;
+		color: background;
 	}
 	a:hover {
 		border-bottom: 0 none;
-		color: lighten($text-light, 20%);
+		color: lighten(background, 30%);
 	}
 // the-footer 
 }
@@ -48,10 +53,7 @@ a:active {
 .has-icon:link,
 .has-icon:visited {
 	border-bottom: 0 none !important;
-	-webkit-transition-duration: 0.2s;
-	-moz-transition-duration: 0.2s;
-	transition-duration: 0.2s;
 }
 .has-icon:hover {
-	color: $text-red !important;
+	color: red !important;
 }

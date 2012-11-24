@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "SOLID CSS by Miller H. Borges Medeiros"
+title: "SOLID CSS"
+byline: "Miller H. Borges Medeiros"
 date: 2012-09-17 13:21:51
 ---
 
