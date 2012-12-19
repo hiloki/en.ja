@@ -15,5 +15,13 @@ markdown:    kramdown
 permalink:   pretty
 kramdown:
   auto_ids: false
-exclude: [LICENSE, README.markdown, jakefile, .rbenv-version, tasks, node_modules, npm-debug.log, package.json, grunt.js, grunt-aws.json]
+  use_coderay: true
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers:
+    coderay_tab_width: 2
+    coderay_css: class
+
+exclude: [LICENSE, README.markdown, jakefile, .rbenv-version, tasks, node_modules, npm-debug.log, package.json, grunt.js, Gruntfile.js, grunt-aws.json]
 include: [_includes]
