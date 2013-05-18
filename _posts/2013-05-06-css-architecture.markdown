@@ -6,11 +6,11 @@ date: 2013-05-06 10:00:00
 ---
 **Credit**  
 This article is translated with permission of Philip Walton([@philwalton](https://twitter.com/philwalton)). 
-Original article is written at Appfolio Engineering Technical Blog. 
-[CSS Architecture](http://engineering.appfolio.com/2012/11/16/css-architecture/)  
+Original article is written at his Blog. 
+[CSS Architecture](http://philipwalton.com/articles/css-architecture/)  
 
 本記事はPhilip Walton([@philwalton](https://twitter.com/philwalton))氏の了承を得て翻訳された記事です。
-原文はAppfolio Engineering技術ブログにて書かれた[CSS Architecture](http://engineering.appfolio.com/2012/11/16/css-architecture/) です。
+原文は彼のブログにて書かれた[CSS Architecture](http://philipwalton.com/articles/css-architecture/) です。
 
 ## CSS Architecture
 
