@@ -13,15 +13,17 @@ Original article is written at his Blog.
 原文は彼のブログにて書かれた[CSS Architecture](http://philipwalton.com/articles/css-architecture/) です。
 
 ## CSS Architecture
+## CSSアーキテクチャ
 
 To many Web developers, being good at CSS means you can take a visual mock-up and replicate it perfectly in code. You don’t use tables, and you pride yourself on using as few images as possible. If you’re really good, you use the latest and greatest techniques like media queries, transitions and transforms. While all this is certainly true of good CSS developers, there’s an entirely separate side to CSS that rarely gets mentioned when assessing one’s skill.
-多くのWebデベロッパとって、良いCSSとはビジュアルモックアップをコードで完全に再現できることを意味する。tableタグを使わず、また出来る限り画像を少なくすることを誇る。もし良ければ、メディアクエリ、Transitions、Transformといった最新・偉大な技術を使う。これが本当に良いCSSデベロッパの真実であるが、スキルとして評価されるときにあまり言及されないCSSの別の側面である。
+多くのWebデベロッパとって、良いCSSとはビジュアルモックアップをコードで完全に再現できることを意味する。tableタグを使わず、また出来る限り画像を少なくすることに誇りを感じる。もし良ければ、メディアクエリ、Transitions、Transformといった最新で偉大な技術を使う。
+これらすべてが良いCSSデベロッパとしての確かな真実ではあるものの、スキルとして評価されるときにあまり言及されないCSSのまったく別の側面がある。
 
 Interestingly, we don’t usually make this oversight with other languages. A Rails developer isn’t considered good just because his code works to spec. This is considered baseline. Of course it must work to spec; its merit is based on other things: Is the code readable? Is it easy to change or extend? Is it decoupled from other parts of the application? Will it scale?
-興味深いことに、私達は通常このような不注意を他言語においては招かない。Railsのデベロッパは、仕様通りにコードが動くというだけで、それが良いと考えない。これはあくまで基本的なことだと考える。もちろん仕様通りに動くことは必要である。これらのメリットは他の事に基づいている。そのコードは読みやすいか？変更・拡張しやすいか？アプリケーションのその他パーツと分離できるか？スケーラブルであるか？
+興味深いことに、私たちは通常他言語においてはこのようなことを見過ごさない。Railsのデベロッパは、仕様通りにコードが動くというだけで、それが良いと考えない。これはあくまで基本的なことだと考える。もちろん仕様通りに動くことは必要であるが、これらのメリットは他の事に基づいている。そのコードは読みやすいか？変更・拡張しやすいか？アプリケーションのその他パーツと分離できるか？拡張性があるか？といったことだ。
 
 These questions are natural when assessing other parts of the code base, and CSS shouldn’t be any different. Today’s web applications are larger than ever, and a poorly thought-out CSS architecture can cripple development. It’s time to evaluate CSS the same way we evaluate every other part of the application. It cannot be an afterthought or written off as merely the “designer’s” problem.
-これらの疑問は、コードの基礎を他の部分で査定するときに自然に湧いてくるし、CSSはそれらと異なるべきではない。今日のWebアプリケーションはこれまでのものよりも大きく、そしてまともに考えられていないCSSアーキテクチャは開発を不自由にする。CSSはすべてのWebアプリケーションの一部として他言語同様に評価する時がきている。ただの思いつきや、単にデザイナーの問題として終わらせるわけにはいかない。
+これらの疑問は、コードの基礎以外を評価するときに自然に湧いてくるもので、CSSはそれらと異なるべきではない。今時のWebアプリケーションは従来のものよりも大きく、そしてまともに考えられていないCSSアーキテクチャは開発を不便にする。CSSはすべてのWebアプリケーションの一部として他言語同様に評価する時がきている。ただの思いつきや、単にデザイナーの問題として終わらせるわけにはいかない。
 
 ## The Goals of Good CSS Architecture
 
